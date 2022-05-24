@@ -1,0 +1,11 @@
+{
+    "app_name": "lsf-task",
+    "main": "C:\\Users\\virtu\\Documents\\lsf-task\\index.html",
+    "name": "lsf-task",
+    "webkit": {},
+    "window": {
+        "id": "lsf-task",
+        "resizable": true,
+        "title": "lsf-task"
+    }
+}
