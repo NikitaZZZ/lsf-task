@@ -47,11 +47,10 @@ let app = new Vue({
   methods: {
     nextQuestion (value) {
       this.userAnswers.push(value);
+      setTimeout(() => document.querySelector('form').reset(), 100);
 
       if (this.currentQuestion+1 != this.tests.test1.questions.length) {
         this.currentQuestion += 1;
-  
-        setTimeout(() => document.querySelector('form').reset(), 100);
       } else {
         this.end = true; 
         this.endTest();
